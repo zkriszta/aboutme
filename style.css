@@ -1,0 +1,111 @@
+#profile-card, #content, #contact {
+    width: 700px;
+    max-width: calc(100vw-10px);
+    text-align: center;
+    color: rgb(75, 70, 70)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+img:hover {
+    opacity: 1.0;
+    background-color: rgba(188, 184, 71, 0.616);
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out
+}
+#profile-image {
+    margin-top: -50px;
+}
+
+#head, #content, #contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#name-headline {
+    line-height: 80%;
+    margin-bottom: 5%;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background: url("assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#profile-card, #content, #contact {
+    opacity: 0.8;
+}
+
+#profile-card:hover {
+    opacity: 1.0;
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#content:hover {
+    opacity: 1.0;
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#contact:hover {
+    opacity: 1.0;
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#content {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#Twitter, #Facebook, #Instagram, #Gmail {
+    color:rgb(75, 70, 70);
+    align-items:center;
+    margin-right: 20px;
+}
+
+#Twitter:hover {
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#Facebook:hover {
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#Instagram:hover {
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#Gmail:hover {
+    color:rgba(188, 184, 71, 0.616);
+}
+
+#contact {
+    align-items: center;
+    justify-content: center;
+}
+
+.tattoo {
+    height: 90px;
+    width: 90px;
+}
