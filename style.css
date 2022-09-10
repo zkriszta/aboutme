@@ -79,7 +79,7 @@ body {
     font-size: 20px;
     line-height: 200%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 200px;
+    margin-left: 70px;
     margin-right: 200px;
 }
 
@@ -110,6 +110,7 @@ body {
     justify-content: center;
     line-height: 110%;
     margin-bottom: 5%;
+    margin-left: -20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
